@@ -1,0 +1,1 @@
+web: personal-mailinator
