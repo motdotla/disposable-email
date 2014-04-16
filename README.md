@@ -2,7 +2,7 @@
 
 Your own personal mailinator.
 
-![]()
+![](https://raw.githubusercontent.com/scottmotte/personal-mailinator/master/public/images/personal-mailinator.gif)
 
 ## Usage
 
