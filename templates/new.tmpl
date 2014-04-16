@@ -1,0 +1,48 @@
+<h3>Watch for incoming emails from this url:</h3>
+
+<h2><a target="_blank" href="http://requestb.in/{{.name}}?inspect">http://requestb.in/{{.name}}?inspect</a></h2>
+
+<hr class="mediumwidth">
+
+<h2>Setup</h2>
+
+<table class="table-striped table">
+  <tbody>
+    <tr>
+      <td>#1</td>
+      <td>Visit the url</td>
+      <td>
+        <strong><a target="_blank" href="https://sendgrid.com/developer/reply">https://sendgrid.com/developer/reply</a></strong>
+      </td>
+    </tr>
+    <tr>
+      <td>#2</td>
+      <td>Set hostname as</td>
+      <td><strong>{{.name}}.webhook.email</strong></td>
+    </tr>
+    <tr>
+      <td>#3</td>
+      <td>Set url as</td>
+      <td><strong>http://requestb.in/{{.name}}</strong></td>
+    </tr>
+    <tr>
+      <td>#4</td>
+      <td>Click button</td>
+      <td><strong>Add host & URL</strong></td>
+    </tr>
+    <tr>
+      <td>#4</td>
+      <td>Send email to</td>
+      <td><strong><a href="mailto:hi@{{.name}}.webhook.email">hi@{{.name}}.webhook.email</a></strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr class="mediumwidth">
+
+<h3>Example</h3>
+
+<img src="images/example.png" width="300">
+
+<br/>
+<br/>
