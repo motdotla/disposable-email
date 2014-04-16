@@ -29,13 +29,11 @@ That's it. You're done!
 ## Deploy to Heroku
 
 ```
-git clone
+git clone https://github.com/scottmotte/personal-mailinator.git
 cd personal-mailinator
 heroku create -b https://github.com/kr/heroku-buildpack-go.git 
 git push heroku master
 heroku open
 ```
-
-Visit [http://your-heroku-subdomain.herokuapp.com](http://your-heroku-subdomain.herokuapp.com)
 
 That's it. You're done!
