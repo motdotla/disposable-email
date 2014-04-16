@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"github.com/go-martini/martini"
 	"github.com/martini-contrib/render"
 	"net/http"
@@ -28,14 +27,14 @@ func main() {
 		res, err := http.PostForm("http://requestb.in/api/v1/bins", values)
 
 		if err != nil {
-			fmt.Println(err)
+			r.JSON(500, map[string]interface{}{"error": err})
 		} else {
 			defer res.Body.Close()
 
 			err = json.NewDecoder(res.Body).Decode(&v)
 
 			if err != nil {
-				fmt.Println(err)
+				r.JSON(500, map[string]interface{}{"error": err})
 			}
 		}
 
