@@ -1,6 +1,8 @@
 # personal-mailinator
 
-Host your own mailinator.
+Host your own mailinator. 
+
+Example: [http://personal-mailinator.herokuapp.com/](http://personal-mailinator.herokuapp.com/)
 
 ![](https://raw.githubusercontent.com/scottmotte/personal-mailinator/master/public/images/personal-mailinator.gif)
 
