@@ -2,7 +2,7 @@
 
 Host your own mailinator. 
 
-Try the [http://personal-mailinator.herokuapp.com/](demo).
+Try the [demo](http://personal-mailinator.herokuapp.com/).
 
 ![](https://raw.githubusercontent.com/scottmotte/personal-mailinator/master/public/images/personal-mailinator.gif)
 
