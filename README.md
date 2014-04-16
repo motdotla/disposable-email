@@ -11,9 +11,13 @@ It's easy to setup and use. You just need [Go](http://golang.org).
 ## Usage
 
 ```
+git clone https://github.com/scottmotte/personal-mailinator.git
+cd personal-mailinator
 go get github.com/martini-go/martini
 go get github.com/martini-contrib/render
 go run app.go
 ```
 
 Visit [http://localhost:3000](http://localhost:3000)
+
+That's it. You're done!
