@@ -1,1 +1,1 @@
-web: personal-mailinator
+web: disposable-email
